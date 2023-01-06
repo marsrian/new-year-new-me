@@ -77,12 +77,16 @@ main {
 }
 .previous-year ul li {
     list-style: none;
-    width: 315px;
+    /* width: 315px; */
     font-weight: 400;
     font-size: 16px;
     color: #444343;
     margin-bottom: 8px;
     margin-left: -40px;
+}
+.previous-year ul li i {
+    color: #16D887;
+    width: 24px;
 }
 
 /* my-plans section */
