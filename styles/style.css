@@ -2,16 +2,7 @@
     margin: 0;
     font-family: 'Work Sans';
 }
-.btn-primary {
-    background: #F15B22;
-    border-radius: 5px;
-    padding: 21px 26px;
-    border: 0;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 23px;
-    color: #FFFFFF;
-}
+
 /* header */
 header {
     height: 100vh;
@@ -45,6 +36,16 @@ header {
     text-align: right;
     color: #444343;
     margin-bottom: 32px;
+}
+.btn {
+    background: #F15B22;
+    border-radius: 5px;
+    padding: 21px 26px;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
 }
 
 /* main */
