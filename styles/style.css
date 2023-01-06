@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+.btn-primary {
+    background: #F15B22;
+    border-radius: 5px;
+    padding: 21px 26px;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+/* header */
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+    padding-right: 230px;
+}
+
+.header {
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* banner title */
+.banner-title {
+    width: 525px;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    color: #151414;
+    margin-bottom: 24px;
+}
+/* banner description */
+.banner-description {
+    width: 494px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+/* main */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* my-failures section */
+.my-failures {
+    margin-top: 130px;
+}
+.previous-year {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+}
+.previous-year .title {
+    width: 288px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.previous-year .description {
+    width: 416px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.previous-year ul li {
+    list-style: none;
+    width: 315px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+    margin-left: -40px;
+}
+
+/* my-plans section */
+.my-plans {
+    margin-top: 130px;
+}
+.my-plans .title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.plans {
+    display: flex;
+    gap: 86px;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+}
+.plans img {
+    margin-bottom: 24px;
+}
+.plans .title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+.plans .description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* positive-mindset section */
+.positive-mindset {
+    margin-top: 124px;
+}
+.mindset {
+    /* width: 1140px;
+    height: 300px; */
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+    padding: 59px 617px 59px 64px;
+}
+.mindset title {
+    width: 459px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.mindset button {
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 36px;
+    border: 0;
+}
