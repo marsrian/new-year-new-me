@@ -21,7 +21,6 @@ header {
 }
 /* banner title */
 .banner-title {
-    width: 525px;
     font-weight: 700;
     font-size: 65px;
     text-align: right;
@@ -30,7 +29,6 @@ header {
 }
 /* banner description */
 .banner-description {
-    width: 494px;
     font-weight: 400;
     font-size: 16px;
     text-align: right;
@@ -63,7 +61,6 @@ main {
     align-items: center;
 }
 .previous-year .title {
-    width: 288px;
     font-weight: 700;
     font-size: 40px;
     color: #151414;
@@ -139,7 +136,6 @@ main {
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
-    width: 459px;
     margin-bottom: 24px;
 }
 .mindset button {
@@ -152,6 +148,29 @@ main {
     border: 0;
 }
 
+/* Manual Section */
+.exercise {
+    margin-top: 130px;
+}
+.physical-exercise {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+}
+.why-exercise-important .title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.why-exercise-important .description {
+    width: 416px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
 /* footer section */
 footer {
     margin-top: 130px;
@@ -162,6 +181,8 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
+
+/* info */
 .info {
     width: 485px;
     color: #FFFFFF;
@@ -196,6 +217,8 @@ footer {
     color: #FFFFFF;
     margin-bottom: 31px;
 }
+
+/* form */
 form {
     display: flex;
     flex-direction: column;
